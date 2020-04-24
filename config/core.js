@@ -11,9 +11,9 @@ config.DB_FILENAME = './database.db';
 // Default: 100MB (100000000)
 config.MAX_UPLOAD_SIZE = 100000000;
 
-config.SITE_NAME = 'NPomf';
-config.HELLO = "Ohayō!";
-config.TAGLINE = "More kawaii than Pomf?!";
+config.SITE_NAME = 'Lokinet-NPomf';
+config.HELLO = "Lokinet-NPomf";
+config.TAGLINE = "Don't do anything illegal?!?!";
 
 // Main URL (User-facing)
 // config.URL = 'http://my.domain.is.moe';
@@ -33,15 +33,13 @@ config.FILE_URL = '/f';
 // config.IFACES = '0.0.0.0'; // Open to all interfaces (Not running behind nginx)
 config.IFACES = '0.0.0.0';
 // Run on 3000 and then proxy with nginx to 80, or just directly open to 80 (not recommended)
-// config.PORT = '80';
-config.PORT = '3000';
+config.PORT = '80';
+
 
 // Contact name & email, for contact page
 config.CONTACTS = [
 	"<b>Now maintained by</b><br/>"+
-	"<!-- a href='mailto:@'>@</a><br/ -->"+
-	"<a href='http://twitter.com/odilitime'>@odilitime</a>",
-	""
+	"Session ID 053b6b764388cd6c4d38ae0b3e7492a8ecf0076e270c013bb5693d973045f45254"
 ];
 
 // Put your grills in public/images/grills and then link them here for them to randomly appear
